@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="website icon" type="png" 
+  href="img/noun-calculator-6386622.png">
   <link rel="stylesheet" href="css/index.css">
   <title>Calculadora IMC</title>
 </head>
 <body>
   <main>
     <h1>Calculadora IMC</h1>
-    <div class="divAltura">
-      <label for="Altura">Altura (M)</label>
-      <input type="number" id="altura">
-    </div>
-    <div class="divPeso">
-      <label for="peso">Peso (Kg)</label>
-      <input type="number" id="peso">
-    </div>
+      <div class="divAltura">
+        <label for="Altura">Altura em (M):</label>
+        <input type="number" id="altura" placeholder="ex...1,70">
+      </div>
+      <div class="divPeso">
+        <label for="peso">Peso em (Kg):</label>
+        <input type="number" id="peso" placeholder="ex...100,00">
+      </div>
     
     <div class="divCalc">
       <button onclick="calcIMC()">Calcular</button>
